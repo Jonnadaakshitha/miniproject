@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('./assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
+    color: #5A5A5A;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45A049;
+  }
+  
+  input[type="file"] {
+    padding: 8px;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  footer {
+    margin-top: 20px;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  

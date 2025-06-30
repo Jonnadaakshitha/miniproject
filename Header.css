@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #004c4c;
+  }
+  
+  .header-title {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .header-nav .nav-link {
+    margin-left: 1rem;
+    color: #ffffff; 
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .header-nav .nav-link:hover {
+    color: #a3d5d5;
+  } 
